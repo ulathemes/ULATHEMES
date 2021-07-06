@@ -1,0 +1,115 @@
+/*
+
+    The following CSS codes are created by the YellowPencil plugin.
+    https://yellowpencil.waspthemes.com/
+
+
+    T A B L E   O F   C O N T E N T S
+    ........................................................................
+
+    01. Global Styles
+    02. Category Page
+
+*/
+
+
+
+/*-----------------------------------------------*/
+/*  Global Styles                                */
+/*-----------------------------------------------*/
+body .jeg_footer_primary .jeg_footer_title span:before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 2px;
+	border-radius: 50px;
+	background-color: #1E90FF;
+	margin-top: 25px;
+}
+
+body .jeg_load_more_flag .jeg_post p{
+	display: none;
+}
+
+body .wp-block-buttons .wp-block-button a{
+	background-color:#27c699;
+	-webkit-box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.5);	box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.5);
+}
+
+body .jeg_sidebar a img{
+	-webkit-box-shadow: 0 3px 6px 0.1px rgba(0, 0, 0, 0.5);	box-shadow: 0 3px 6px 0.1px rgba(0, 0, 0, 0.5);
+}
+
+body .jeg_load_more_flag .jeg_post .box_wrap{
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.1);	box-shadow: 0 1px 6px rgba(0,0,0,.1);
+	position: relative;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:-webkit-box;	display:-webkit-flex;	display:-ms-flexbox;	display:flex;
+
+
+
+	-webkit-box-orient: column;	-webkit-box-direction: column;	-ms-flex-direction: column;	flex-direction: column;
+	border-radius: 10px;
+	background: #fff;
+	text-align: left;
+	transition: translate .18s,box-shadow .18s;
+
+	-webkit-transform: translateY(0);	-ms-transform: translateY(0);	transform: translateY(0);
+}
+
+body .jeg_load_more_flag .jeg_post .box_wrap:hover{
+	-o-transform: translateY(-2px);
+	-moz-transform: translateY(-2px);
+
+	-webkit-transform: translateY(-2px);	-ms-transform: translateY(-2px);	transform: translateY(-2px);
+	-webkit-box-shadow: 0 0.1px 9px 2.5px rgba(0, 0, 0, 0.1);	box-shadow: 0 0.1px 9px 2.5px rgba(0, 0, 0, 0.1);
+	transition: translate .18s,;
+}
+
+body div .jeg_main .jeg_container{
+	background-color:#FAFAFA;
+}
+
+body .jeg_main .jeg_content{
+	background-color:#FAFAFA;
+}
+
+body .jeg_section .jeg_column .jeg_inner_content{
+	background-color:#FAFAFA;
+}
+
+body .jeg_main .jeg_post .box_wrap{
+	border-radius: 15px;
+}
+
+body .jeg_header_wrapper .jeg_header .jeg_midbar{
+	height: 75px;
+	-webkit-box-shadow: 0px 6px 10px -6px #DCDCDC;	box-shadow: 0px 6px 10px -6px #DCDCDC;
+}
+
+body .jeg_section .jeg_inner_content{
+	background-color: #FAFAFA;
+}
+
+
+
+/*-----------------------------------------------*/
+/*  Category Page                                */
+/*-----------------------------------------------*/
+body.category .jeg_column h1{
+	text-align:center;
+	text-transform:uppercase;
+	color:#f9f9f9;
+	font-style:normal;
+	font-weight:600;
+	background-repeat:no-repeat;
+	background-image:-webkit-linear-gradient(left, #1a2980 0%, #26d0ce 100%);	background-image:-o-linear-gradient(left, #1a2980 0%, #26d0ce 100%);	background-image:linear-gradient(to right, #1a2980 0%, #26d0ce 100%);
+	border-top-left-radius:18px;
+	border-top-right-radius:2px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:13px;
+	-webkit-animation-fill-mode:both;	animation-fill-mode:both;
+}
