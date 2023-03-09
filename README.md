@@ -1,9 +1,8 @@
 ### Hi there 👋
 
-<!--
-**ulathemes/ULATHEMES** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+We have some exciting news to share - our website has officially moved to a new domain! You can now find us at **gplastra.com**. 💻
 
-Here are some ideas to get you started:
+We are thrilled about this change and cannot wait for you to check it out.
 
-- 🔭 I’m currently working on www.ulathemes.com
--->
+- 🔭 I’m currently working on www.gplastra.com
+
